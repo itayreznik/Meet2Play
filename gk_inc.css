@@ -1,0 +1,85 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color:gray;
+    color: white;
+    padding: 6px 6px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    width: 10%;
+    background-color:gray;
+    color: white;
+    padding: 6px 6px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=date] {
+    width: 10%;
+    background-color:gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+table {
+	font-family:Arial;
+	font-size:x-large;
+	text-align:center;
+	border-collapse: collapse;
+}
+
+
+.td1:hover{background-color:#A0A0A0	}
+
+
+#td2:hover{background-color:#A0A0A0;opacity:0.7}
+#td3 {
+	background-color:silver;
+  color:Blue;
+}
+#td4 {
+	background-color:teal
+}
+.abc {
+	 border-style: outset;
+    border-width: 7px;
+    border-color: navy;
+}
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

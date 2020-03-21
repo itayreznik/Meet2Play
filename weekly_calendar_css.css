@@ -1,0 +1,113 @@
+﻿<style> 
+
+@media only screen and (min-width :501px and  max-width : 950px) {
+.calendar1{
+	width:50%;
+}
+}
+@media only screen and (min-width :100px and max-width : 500px) {
+.calendar1{
+	width:100%;
+	length:100%;
+}
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+    /* The image used */
+  background-image: url("weekly.jpg");
+	
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+     background-size: cover;
+	
+    }
+    
+
+.daily{
+	border: 0px transparent;
+	 padding-top: 12px;
+	  margin: 0px; 
+	  text-align: center;
+	   vertical-align: text-top;
+	   border-radius: 10px;
+	   opacity:0.9;
+	   
+}
+
+.monthNow{
+ color: black;
+ background:white;
+ transition: transform 0.1s;
+ transform-style: preserve-3d;
+}
+.dayNow{
+ border: 2px solid green;
+ color: black;
+ background:#f2efef;
+}
+.calendar td{
+ htmlContent: 4px;
+ width: 80px;
+ length:80%;
+}
+.monthNow th{
+ background-color: #000000;
+ color: #FFFFFF;
+}
+.monthNow:active{
+ transform: rotateY(180deg);}
+.monthNow:hover{
+ background-color:#ffb366;
+ color:#303036;
+}
+
+
+.dayNames{
+ background: #66CCFF;
+ color: #FFFFFF;
+ text-align: center;
+}
+.tdmh
+{
+	border-collapse: separate;
+	border: solid thin black;
+}
+.tdms
+{
+	border-collapse: separate;
+	border: solid thin gray;
+}
+.tdms:hover 
+{
+	background-color:navy;
+	color: white;
+	border-radius: 10px;
+	cursor:pointer;
+	border: solid thin blue;
+}
+.buttons{
+display:inline-block;
+padding:0.2em 0.5em 0.2em 0.5em;
+margin:0.2em;
+border:0.15em solid #CCCCCC;
+text-decoration:none;
+font-family:'Segoe UI','Roboto',sans-serif;
+font-weight:bold;
+color:#000000;
+background-color:#CCCCCC;
+
+	
+}
+.buttons:hover{
+border-color:#7a7a7a;
+}
+.buttons:active{
+background-color:#999999;
+}
+}
+</style> 

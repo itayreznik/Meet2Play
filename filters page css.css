@@ -1,0 +1,217 @@
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<style>
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 200%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor:pointer;
+opacity:0.9;
+}
+
+.bt0 {
+width:50%;
+margin-top:0;
+}
+@media only screen and (max-width : 600px) {
+  .bt0 {
+    display: block;  /*copy for bt2 (the buttons with inline; */
+    width:100%;
+    height:50%
+    
+   }
+
+ }
+
+
+.button5{
+display:inline-block;
+padding:0.46em 1.6em;
+border:0.1em solid #000000;
+margin:0 0.2em 0.2em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#000000;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+background-color:#FFFFFF;
+text-align:center;
+transition: all 0.15s;
+}
+.button5:hover{
+text-shadow: 0 0 2em rgba(255,255,255,1);
+color:black;
+border-color:gray;
+background-color:#0099FF
+
+
+}
+@media all and (max-width:30em){
+.button5{
+display:block;
+margin:0.4em auto;
+}
+}
+
+
+.button4{
+background-color:white;
+display:inline-block;
+padding:0.3em 1.2em;
+margin:0 0.1em 0.1em 0;
+border:0.16em solid rgba(255,255,255,0);
+border-radius:1em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-size:large;
+font-weight:60;
+color:black;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+text-align:center;
+transition: all 0.2s;
+border-color:black;
+
+length:2em;
+}
+.button4:hover{
+text-shadow: 0 0 2em rgba(255,255,255,1);
+color:black;
+border-color:gray;
+background-color:#0099FF
+}
+@media all and (max-width:30em){
+.button4{
+
+margin:0.2em auto;
+}
+}
+
+#button1 {
+    width: 10%;
+    background-color:gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.td1:hover{background-color:#A0A0A0	}
+
+#td2:hover{background-color:#A0A0A0;opacity:0.7}
+#td3 {
+	background-color:silver
+}
+#td4 {
+	background-color:teal
+}
+.abc {
+	 border-style: outset;
+    border-width: 7px;
+    border-color: navy;
+}
+table {
+	font-family:Arial;
+	font-size:x-large;
+
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.bg {
+    /* The image used */
+    background-image: url("weekly.jpg");
+    /* Full height */
+	height:-100px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+       
+    }
+ 
+ #id1 {
+	border-collapse: separate;
+	border: solid thin gray;
+}
+
+#id1:hover 
+{
+	background-color:gray;
+	color: white;
+	border-radius: 10px;
+	cursor:pointer;
+	border: solid thin blue;
+	
+}
+
+
+#table1 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size:medium;
+  border-collapse: collapse;
+  width: 70%;
+  }
+
+#table1 td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 135px;
+  text-align:center;
+}
+
+/*#table1 tr:nth-child(even){background-color: #f2f2f2;}*/
+
+/*#table1 tr:hover {background-color: #ddd; }*/
+
+#table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color:#0099FF;
+  color: white;
+  width: 135px;
+  text-align:center;
+}
+}
+
+
+
+</style>
